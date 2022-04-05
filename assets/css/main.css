@@ -198,10 +198,10 @@ input, select, textarea {
 
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #7d3535, #0d7518);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #0d7518);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #0d7518);
+				background-image: linear-gradient(to right, #7d3535, #0d7518);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -228,7 +228,7 @@ input, select, textarea {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #ee4e00, #0f7a24);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -238,7 +238,7 @@ input, select, textarea {
 				content: '';
 				height: 0.05em;
 				position: absolute;
-				width: 100%;
+				width: 15%;
 				box-sizing: inherit;
 			}
 
@@ -3951,4 +3951,70 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+
+
+		/* five contaner */
+		#five{
+			
+		background-image: linear-gradient(
+  110deg,
+  hsl(12deg 84% 45%) 0%,
+  hsl(18deg 85% 44%) 0%,
+  hsl(24deg 84% 43%) 0%,
+  hsl(30deg 85% 42%) 0%,
+  hsl(36deg 85% 41%) 1%,
+  hsl(42deg 85% 40%) 2%,
+  hsl(48deg 85% 39%) 3%,
+  hsl(46deg 79% 48%) 4%,
+  hsl(45deg 74% 56%) 6%,
+  hsl(43deg 69% 64%) 9%,
+  hsl(42deg 64% 73%) 14%,
+  hsl(40deg 60% 81%) 22%,
+  hsl(39deg 54% 90%) 78%,
+  hsl(43deg 55% 82%) 86%,
+  hsl(47deg 58% 73%) 91%,
+  hsl(51deg 61% 65%) 94%,
+  hsl(55deg 63% 57%) 96%,
+  hsl(60deg 64% 48%) 97%,
+  hsl(64deg 67% 40%) 98%,
+  hsl(78deg 67% 37%) 99%,
+  hsl(92deg 68% 34%) 100%,
+  hsl(105deg 69% 31%) 100%,
+  hsl(119deg 69% 28%) 100%,
+  hsl(133deg 69% 25%) 100%,
+  hsl(147deg 70% 22%) 100%
+);
+		}
+
+
+		/* my-tech color gradient */
+		#myTech{
+			background-image: linear-gradient(
+  105deg,
+  hsl(166deg 73% 20%) 27%,
+  hsl(156deg 75% 22%) 53%,
+  hsl(146deg 77% 24%) 64%,
+  hsl(136deg 79% 26%) 70%,
+  hsl(126deg 80% 28%) 74%,
+  hsl(116deg 81% 30%) 77%,
+  hsl(106deg 84% 31%) 79%,
+  hsl(96deg 86% 33%) 81%,
+  hsl(85deg 88% 35%) 83%,
+  hsl(75deg 89% 37%) 84%,
+  hsl(65deg 91% 39%) 85%,
+  hsl(55deg 93% 41%) 86%,
+  hsl(61deg 88% 40%) 87%,
+  hsl(68deg 84% 39%) 87%,
+  hsl(75deg 79% 38%) 88%,
+  hsl(81deg 74% 37%) 89%,
+  hsl(87deg 70% 35%) 90%,
+  hsl(93deg 66% 34%) 92%,
+  hsl(100deg 61% 33%) 93%,
+  hsl(106deg 56% 32%) 94%,
+  hsl(113deg 51% 31%) 96%,
+  hsl(119deg 46% 30%) 98%,
+  hsl(126deg 42% 29%) 100%
+);
 		}
