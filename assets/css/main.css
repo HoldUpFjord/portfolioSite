@@ -3028,17 +3028,19 @@ input, select, textarea {
 		}
 
 		.spotlights > section > .image {
-			background-position: center center;
+			background-position: center center !important;
 			background-size: cover;
 			border-radius: 0;
 			display: block;
 			position: relative;
 			width: 25em;
+			
 		}
 
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
+				
 			}
 
 			.spotlights > section > .image:before {
