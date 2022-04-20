@@ -2547,16 +2547,18 @@ input, select, textarea {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
-			border-radius: 100%;
-			color: #312450;
+			background: hsl(166deg 73% 20%);
+			
+			color: #8c9021;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
+			transform: rotate(45deg);
 		}
 
 			.icon.major:before {
 				font-size: 1.25em;
+				transform:rotate(-45deg)
 			}
 
 				.wrapper.style1 .icon.major:before {
