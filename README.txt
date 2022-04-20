@@ -1,33 +1,5 @@
-Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+This was my first attempt at a personal site. The main page is atempelate used from HTML5up: "https://html5up.net/hyperspace". The intent is to be a forward facing freelance web design page, with a secondary page for dev roles.
 
+Working with a existing codebase like this allowed me to examine and play with a lot of CSS I hadn't encountered or worked with until that point. Some examples are  psuedocode such as before::/after::, dealing with inheritance and stylizations, and tinkering with the overall design and anchortags.
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+The second page/AboutMe section has the CSS bones of the tempelate, but with quite a few changes. I wanted to make a custom layout that also blended with the design from the first page. After gutting the generic page found in the tempelate, I arrived at a layout I liked. Using Hsl color gradients to keep cohesion of the color design led was a solution that took quite a few tries. I found a blog post from a frontend dev and a tool he used to make very interestng gradients, found here: https://www.joshwcomeau.com/gradient-generator/ , and landed upon the final design.
