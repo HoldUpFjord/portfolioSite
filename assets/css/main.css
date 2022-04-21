@@ -2547,6 +2547,23 @@ input, select, textarea {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
+			background: rgb(218, 227, 225);
+			
+			color: #32af66;
+			text-align: center;
+			line-height: 2.5em;
+			margin: 0 0 1.3em 0;
+			
+		}
+
+			.icon.major:before {
+				font-size: 1.25em;
+				
+		}
+		.major-icons-two {
+			width: 2.5em;
+			height: 2.5em;
+			display: block;
 			background: hsl(166deg 73% 20%);
 			
 			color: #8c9021;
@@ -2556,7 +2573,7 @@ input, select, textarea {
 			transform: rotate(45deg);
 		}
 
-			.icon.major:before {
+			.icon.major.two:before {
 				font-size: 1.25em;
 				transform:rotate(-45deg)
 			}
