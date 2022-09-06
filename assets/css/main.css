@@ -2655,7 +2655,11 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+	.imgPortfolio{
+		width: 100%;
+		height: 50vh;
+		object-fit: fill;
+	}
 /* List */
 
 	ol {
@@ -2718,6 +2722,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		display: flex;
+		justify-content:center;
 	}
 
 		ul.actions li {
