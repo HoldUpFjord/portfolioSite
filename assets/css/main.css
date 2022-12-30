@@ -2655,11 +2655,21 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-	.imgPortfolio{
+	/*.imgPortfolio{
 		width: 100%;
 		height: 50vh;
 		object-fit: fill;
+	}*/
+	.imagePortfolio {
+		border-radius: 1.5em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		width : 24vw;
+		height: 44vh;
+		object-fit: cover;
 	}
+
 /* List */
 
 	ol {
