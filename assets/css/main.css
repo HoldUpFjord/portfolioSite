@@ -2725,6 +2725,10 @@ input, select, textarea {
 		}
 		
 	}
+	.portBtns{
+		display: flex;
+		justify-self: center;
+	}
 /* List */
 
 	ol {
