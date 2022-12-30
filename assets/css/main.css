@@ -1970,6 +1970,11 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			border-color: rgba(255, 255, 255, 0.55) !important;
+			
+		}
+		.button.repo:hover {
+			background-color: #0d7518;
+			border-color: rgba(255, 255, 255, 0.55) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2000,6 +2005,14 @@ input, select, textarea {
 					opacity: 0.1;
 				}
 
+				button.repo :hover{
+	
+					background-color:#10694f;
+					transition: 0.7s;
+				
+			  
+			}
+
 /* Features */
 
 	.features {
@@ -2023,6 +2036,10 @@ input, select, textarea {
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
+		
+			
+		
+		
 
 			.features section:nth-child(-n + 2) {
 				border-top-width: 0;
@@ -2670,6 +2687,44 @@ input, select, textarea {
 		object-fit: cover;
 	}
 
+	@media screen and (max-width: 3060px){
+		.imagePortfolio{
+			border-radius: 1.5em;
+			border: 0;
+			display: inline-block;
+			position: relative;
+			width : 24vw;
+			height: 44vh;
+			object-fit: cover;
+		}
+	}
+	@media screen and (max-width: 980px) {
+		.imagePortfolio {
+			width: 60vw;
+			height: 36vh;
+		}
+	}
+
+	/* Portfolio Sectoins */
+	@media screen and (max-width: 3060px){
+		.portfolioSections{
+			padding: 3.5em 3em 1em 5em !important;
+		}
+		
+	}
+
+	@media screen and (max-width:980px ) {
+		.portfolioSections{
+			padding: 3.5em 3em 1em 7em !important;
+		}
+	}
+
+	@media screen and (max-width: 480px){
+		.portfolioSections{
+			padding: 3.5em 3em 1em 3em !important;
+		}
+		
+	}
 /* List */
 
 	ol {
