@@ -2684,7 +2684,7 @@ input, select, textarea {
 		position: relative;
 		width : 24vw;
 		height: 44vh;
-		object-fit: cover;
+		object-fit: fill;
 	}
 
 	@media screen and (max-width: 3060px){
